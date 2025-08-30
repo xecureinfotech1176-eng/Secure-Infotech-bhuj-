@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Infotech Bhuj - CCTV Camera Installation & Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a192f 0%, #1a365d 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+        }
+        
+        .service-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border-color: #3b82f6;
+        }
+        
+        .price-card {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            border: 2px solid #3b82f6;
+        }
+        
+        .feature-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+        }
+        
+        .contact-form {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        
+        .security-pattern {
+            background-image: radial-gradient(circle, rgba(59, 130, 246, 0.1) 2px, transparent 2px);
+            background-size: 30px 30px;
+        }
+    </style>
+</head>
+<body class="security-pattern">
+    <!-- Header -->
+    <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-blue-800/30">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-shield-alt text-white text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-white">Secure Infotech <span class="text-blue-400">Bhuj</span></span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-blue-300 hover:text-white transition-colors">Home</a>
+                    <a href="#services" class="text-gray-300 hover:text-white transition-colors">Services</a>
+                    <a href="#pricing" class="text-gray-300 hover:text-white transition-colors">Pricing</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button class="text-gray-300 hover:text-white">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 hero-gradient">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Professional CCTV <span class="text-blue-400">Security Solutions</span> in Bhuj
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        Your trusted partner for high-quality CCTV camera installation and maintenance services. 
+                        We provide better prices and exceptional service to keep your property secure 24/7.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact" class="btn-primary px-8 py-4 rounded-lg text-white font-semibold text-lg">
+                            Get Free Consultation
+                        </a>
+                        <a href="#services" class="px-8 py-4 border border-blue-600 text-blue-300 rounded-lg font-semibold text-lg hover:bg-blue-600 hover:text-white transition-colors">
+                            View Services
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="absolute inset-0 bg-blue-600/20 rounded-3xl transform rotate-6"></div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7c248fc5-0fa7-4c0f-b3c6-a542935b5f8d.png" alt="Modern CCTV security control room with multiple monitor displays showing surveillance footage in a professional security operations center" class="relative z-10 rounded-3xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-900/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Professional Services</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Comprehensive CCTV solutions tailored to meet your security needs with the latest technology
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-camera text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">CCTV Installation</h3>
+                    <p class="text-gray-400 mb-6">
+                        Professional installation of high-resolution CCTV cameras with optimal positioning for maximum coverage and security.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-blue-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            HD Quality Cameras
+                        </li>
+                        <li class="flex items-center text-blue-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Expert Positioning
+                        </li>
+                        <li class="flex items-center text-blue-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Cable Management
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-green-600 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Maintenance & Repair</h3>
+                    <p class="text-gray-400 mb-6">
+                        Regular maintenance and prompt repair services to ensure your security system operates flawlessly.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-green-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            24/7 Support
+                        </li>
+                        <li class="flex items-center text-green-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Quick Response
+                        </li>
+                        <li class="flex items-center text-green-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Genuine Parts
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Remote Monitoring</h3>
+                    <p class="text-gray-400 mb-6">
+                        Access your CCTV footage from anywhere using your smartphone or computer with our advanced remote monitoring solutions.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-purple-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Mobile Access
+                        </li>
+                        <li class="flex items-center text-purple-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Cloud Storage
+                        </li>
+                        <li class="flex items-center text-purple-300">
+                            <i class="fas fa-check-circle mr-3"></i>
+                            Real-time Alerts
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Competitive Pricing</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Transparent pricing with no hidden costs. We offer the best value for your security investment.
+                </p>
+            </div>
+
+            <div
